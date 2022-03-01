@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 14pt;
+	background-image: url(images_travelblog/santorini.jpg);
+	background-size: cover;
+  }
+#container{
+	width: 768px;
+	height: auto;
+	background-color: white;
+	float: none;
+	margin: auto;
+}
+
+
+/*Float the aside so it displays next to main*/
+aside {
+	width: 150px;
+	height: 750px;
+	float: left;
+	background-color: #797070;
+}
+header {
+	width: 768px;
+	height: 250px;
+	background-image: url(images_travelblog/Fly%20Forward%20Logo-01.jpg);
+}
+h1{
+	
+
+color: #4782B3;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+h3 {
+	font-size: 19px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+/*Float the main so it shows up next to the aside. Reduce width by 150px so they both line up with the header*/
+main {
+	width: 568px;
+	height: 1800px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+/*Clear the float so the footer shows up in the right place again*/
+footer {
+	width: 768px;
+	height: 150px;
+	float: none;
+	clear: both;
+	background-color: #646464;
+}
+table {
+	/* [disabled]border-color: #5087B6; */
+	/* [disabled]border-style: solid; */
+	border-radius: 10px;
+	/* [disabled]border-width: 5px; */
+}
+
+img {
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.floatLeft{
+	float: left;
+}
+article {
+	margin-bottom: 30px;
+}
+nav {
+	width: 768px;
+	height: 50px;
+	font-family: "Gautreaux Medium";
+}
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 150px;
+	font-family: gautreaux, sans-serif;
+	font-size: 18pt;
+	margin-left: 20px;
+
+}
+#conatiner nav ul {
+	width: 525px;
+	margin: auto;
+}
+nav a:link {
+	color: #d23d8c;
+	text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #4782b3;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color:#d23d8c;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.submit_btn {
+	width: 160px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #D23D8C;
+	color: #FFFFFF;
+	font-size: 16px;
+
+}
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
+tr {
+	/* [disabled]border-color: #4A82B5; */
+	/* [disabled]border-style: solid; */
+	border-radius: 10px;
+	/* [disabled]border-width: 5px; */
+}
+td {
+	border: 5px solid #4B84B6;
+}
+#container header {
+}
+th {
+	border: 5px solid #4B84B6;
+}
+th td {
+	border-radius: 10px;
+}
+a {
+	text-decoration: none;
+	color: #D23D8C;
+}
+#container footer h1 {
+	text-align: center;
+	margin-top: 20px;
+	/* [disabled]margin-right: 10px; */
+	/* [disabled]margin-left: 10px; */
+	/* [disabled]margin-bottom: 10px; */
+}
+footer p a {
+	color: #4782B2;
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+h1 {
+	color: #4782B3;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+img {
+	border-radius: 2px;
+	border: 4px solid #4782B3;
+}
+li {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #D23D8C;
+	font-size: 20px;
+}
+p {
+	color: #D23D8C;
+	/* [disabled]background-color: #FFFFFF; */
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+}
+table {
+	border: 5px solid #4782B3;
+}
+tr{
+	border: 5px solid #4782B3;
+}
+th {
+	border: 5px solid #4782B3;
+}
+td {
+	border: 5px solid #4782B3;
+	width: 150px;
+	
+}
+a {
+	text-decoration: underline;
+	color: #D23D8C;
+}
